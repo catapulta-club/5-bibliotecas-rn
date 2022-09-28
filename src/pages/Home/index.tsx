@@ -37,7 +37,6 @@ const Home = () => {
         <Lottie
           source={isLoading ? loadingAnimation : bitcoinAnimation}
           autoPlay
-          loop
           resizeMode="cover"
         />
       </Box>
